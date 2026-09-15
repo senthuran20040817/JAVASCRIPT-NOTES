@@ -1,6 +1,7 @@
 //----------------  FOR LOOP  ----------------
-let day = 5;
+let loop=0;
 
-for(let i=0 ; i<5 ; i++){
-    console.log("loop -- "+(i+1));
+while(loop<5){
+    console.log("loop -- "+(loop+1));
+    loop+=1;
 }
