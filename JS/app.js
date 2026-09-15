@@ -1,4 +1,18 @@
-//---------------- ARRAYS  ----------------
-let array = [1, 2, 3, "Senthuran" , "Bineth" , "Sameera" , 1.23 , 2.34 , 3.45 , true , false];
+//---------------- OBJECT  ----------------
+let customer = {
+    name : "Senthuran",
+    age : 22,
+    total : 22500.00,
+    address : "Chilaw",
+    isActive : true
+}
 
-console.log(array);
+//accessing the values of a key in an object
+console.log(customer.name);
+console.log(customer.age);
+console.log(customer.total);
+console.log(customer.address);
+console.log(customer.isActive);
+
+//accessing all the items in an object
+console.log(customer);
