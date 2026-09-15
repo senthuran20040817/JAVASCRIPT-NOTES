@@ -1,12 +1,28 @@
-//----------------  IF / ELSE / ELSE IF  ----------------
-let units = 110;
-let bill;
+//----------------  SWITCH CASE  ----------------
+let day = 5;
 
-if(units<=10){
-    bill = units*10;
-}else if(units<=100){
-    bill = 50*10 + (units-50)*15;
-}else{
-    bill = 50*10 + 50*15 + (units-100)*20;
+switch(day){
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid Number");
 }
-console.log(bill);
