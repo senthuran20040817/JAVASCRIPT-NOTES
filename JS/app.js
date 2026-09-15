@@ -1,10 +1,6 @@
-//---------------- FUNCTIONS  ----------------
-let add = (a, b) => console.log(a+" + "+b+" = "+(a+b));
-let substract = (a, b) => console.log(a+" - "+b+" = "+(a-b));
-let multiply = (a, b) => console.log(a+" x "+b+" = "+(a*b));
-let divide = (a, b) => console.log(a+" / "+b+" = "+(a/b));
+//---------------- ARRAYS  ----------------
+let array = [1, 2, 3, "Senthuran" , "Bineth" , "Sameera" , 1.23 , 2.34 , 3.45 , true , false];
 
-add(10, 2);
-substract(10, 2);
-multiply(10, 2);
-divide(10, 2);
+for(let i=0 ; i<array.length ; i++){
+    console.log(array[i]);
+}
