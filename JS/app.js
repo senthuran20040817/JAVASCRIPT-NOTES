@@ -1,7 +1,7 @@
-//----------------  FOR LOOP  ----------------
-let loop=0;
-
-while(loop<5){
-    console.log("loop -- "+(loop+1));
-    loop+=1;
+//----------------  WHILE LOOP  ----------------
+let num=2;
+let by=1;
+while(by<=10){
+    console.log(num+" x "+by+" = "+(num*by));
+    by++;
 }
