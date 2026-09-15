@@ -1,21 +1,20 @@
 //---------------- FUNCTIONS  ----------------
-function add(a, b){
-    return a+b;
+let add = function(a, b){
+    console.log(a+" + "+b+" = "+(a+b));
 }
 
-function substract(a, b){
-    return a-b;
+let substract = function(a, b){
+    console.log(a+" - "+b+" = "+(a-b));
 }
 
-function multiply(a, b){
-    return a*b;
+let multiply = function(a, b){
+    console.log(a+" x "+b+" = "+(a*b));
 }
 
-function divide(a, b){
-    return a/b;
+let divide = function(a, b){
+    console.log(a+" / "+b+" = "+(a/b));
 }
-
-console.log("Addition       => "+add(10, 2));
-console.log("Substraction   => "+substract(10, 2));
-console.log("Multiplication => "+multiply(10, 2));
-console.log("Division       => "+divide(10, 2));
+add(10, 2);
+substract(10, 2);
+multiply(10, 2);
+divide(10, 2);
